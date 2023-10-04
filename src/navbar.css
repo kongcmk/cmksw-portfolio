@@ -1,0 +1,10 @@
+.navbar-open {
+    background-color: #0E0E0E; /* สีพื้นหลังเมื่อเปิด */
+    color: #efefef; /* สีข้อความเมื่อเปิด */
+    
+  }
+  
+  .navbar-closed {
+    background-color: #efefef; /* สีพื้นหลังเมื่อปิด */
+    color: #0E0E0E; /* สีข้อความเมื่อปิด */
+  }

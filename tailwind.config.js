@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
+      mini: "320px",
       small: "375px",
       phone: "425px",
       tablet: "640px",
@@ -13,7 +14,8 @@ export default {
     },
     extend: {
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
+        'spin-slow': 'spin 20s linear infinite',
+        'ping-slow': 'ping 5s linear infinite',
       },
       dropShadow: {
         'solid': '8px 8px rgba(0, 0, 0, 1)',

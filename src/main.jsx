@@ -13,7 +13,7 @@ import './index.css'
 // import Projects from './projects';
 // import App from './App.jsx'
 // import Window from './components/window.jsx';
-import Home from './Home.jsx';
+import Home from './pages/Home.jsx';
 
 const router = createBrowserRouter([
   {

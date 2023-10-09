@@ -52,7 +52,7 @@ const Home = () => {
 
       <DraggableCore>
         <div
-          className={` 
+          className={` w-fit h-fit  inset-y-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 absolute
       ${folderOpen ? "" : "hidden"}
     `}
         >

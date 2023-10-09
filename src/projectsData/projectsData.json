@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "bmi_calculator_webpage",
+    "description": "The BMI Calculator webpage provides a convenient and respectful tool for swiftly assessing your body mass index (BMI) to gain valuable health insights",
+    "source_code": "https://github.com/kongcmk/bmi-calculator",
+    "demo": "https://bmi-calculator-psi-two.vercel.app",
+    "image": ""
+  },
+    {
+      "id": 2,
+      "name": "find_your_hat_game",
+      "description": "Find Your Hat is a CLI game with a unique feature: random hole generation for dynamic gameplay.",
+      "source_code": "https://github.com/kongcmk/find-your-hat",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "book_management_system",
+      "description": "It features core functionalities such as a book database, search, editing, deletion, and user-friendly data services on CLI.",
+      "source_code": "https://github.com/kongcmk/book-management-system",
+      "demo": "",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "product-management-system",
+      "description": "The Product Management System offers the following core CRUD features: Get All Products, Get Product by ID, Find Products by Title, Create Product, Update Product, Delete Product.",
+      "source_code": "https://github.com/kongcmk/product-management-system.git",
+      "demo": "",
+      "image": ""
+    }
+    
+  ]

@@ -17,7 +17,7 @@ const Portfolio = ({ folderCloseHandler }) => {
     <div>
 
       {/* mobile mode */}
-    <div className="hidden w-full h-full">
+    <div className="w-full h-full laptop:hidden">
     <div>
         <div className="flex flex-col items-center justify-center w-auto h-auto text-primary drop-shadow-solid">
           {/* Tab bar */}
@@ -115,7 +115,7 @@ const Portfolio = ({ folderCloseHandler }) => {
     </div>
 
     {/* desktop mode */}
-    <div className="w-full h-full">
+    <div className="hidden w-full h-full laptop:block">
       <Draggable>
         <div className="flex flex-col items-center justify-center w-auto h-auto text-primary drop-shadow-solid">
           {/* Tab bar */}

@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <div className="relative w-full h-[100vh]">
       {/* moblie mode */}
-      <div className="hidden w-full h-full">
+      <div className="w-full h-full laptop:hidden">
       <div>
           <div className="centerPage">
             {/* Tab bar */}
@@ -53,7 +53,7 @@ const Home = () => {
       </div>
 
       {/* desktop mode*/}
-      <div className="w-full h-full">
+      <div className="hidden w-full h-full laptop:block">
         <DraggableCore>
           <div className="centerPage">
             {/* Tab bar */}

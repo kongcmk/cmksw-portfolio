@@ -35,7 +35,7 @@ const Detail = () => {
       <div className="flex flex-col items-start justify-start w-full phone:gap-2 tablet:gap-6">
         <div className="">
           <img
-            src="src/assets/images/picture-profile.jpg"
+            src="https://lh3.googleusercontent.com/pw/ADCreHcY5EnDmFFwuD3KViNcAbIsEalweKeZlEOoocasH9P89bp5iSXt_ofF6wLuts5VMf2I-kTamvWfa2-JJvB-5GaLpcQFAPqYb9gHLJQxr4tiBus-s4hbJy6XctZ7HvdjUffiCZOEnxbf0AtXr6aB3A3R=w693-h924-s-no?authuser=0"
             alt="picture-profile"
           />
         </div>

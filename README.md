@@ -1,8 +1,31 @@
-# React + Vite
+# Portfolio Page README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Core Features
 
-Currently, two official plugins are available:
+This portfolio page is a React application that showcases various components using React and the `react-draggable` library for draggable elements. Here are the core features of this page:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Draggable Folder Icons**: The page features draggable folder icons for different sections, including Overview, Projects, About, and Contact.
+
+2. **Tab Bar**
+
+3. **Content Sections**
+   - **Overview**
+   - **Projects**
+   - **About**
+   - **Contact**
+
+4. **Interactive UI**
+
+5. **Close Button**
+
+6. **Responsive Design**
+
+7. **Flexibility**
+
+8. **UI Icons**
+
+9. **Styling**
+
+10. **Reusability**
+
+Please note that this README provides an overview of the core features of the Portfolio page.

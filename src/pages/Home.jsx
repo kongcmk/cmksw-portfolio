@@ -19,7 +19,7 @@ const Home = () => {
   };
 
   return (
-    <div className="relative w-full h-[100vh]">
+    <div className="relative w-full h-[100vh] px-2 py-2">
       {/* moblie mode */}
       <div className="w-full h-full laptop:hidden">
       <div>

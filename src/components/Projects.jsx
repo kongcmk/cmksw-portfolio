@@ -5,6 +5,8 @@ import projectsData from "../projectsData/projectsData.json";
 const Projects = ({ setProjectsOpen }) => {
   const [projects, setProjects] = useState(projectsData);
 
+  const sortedProjectsData = projects.sort((a, b) => b.id - a.id);
+
   return (
     <div>
       <div className="flex flex-col items-center justify-center w-auto h-auto text-primary drop-shadow-solid ">
@@ -32,14 +34,14 @@ const Projects = ({ setProjectsOpen }) => {
           <div className="w-auto h-auto max-h-[60vh] overflow-auto py-[2rem]">
             {/* Projects mapping */}
             <ul>
-              {projects.map((project) => (
+              {sortedProjectsData.map((project) => (
                 <li
                   key={project.id}
                   className="flex flex-col justify-center h-auto mx-4 mb-4 overflow-hidden bg-white rounded-md drop-shadow-md duration-300 ease-in-out hover:scale-[103%] hover:bg-[#FFD400]"
                 >
                   <div className="w-full">
                     {project.image !== "" && (
-                      <div className="relative w-full max-h-60">
+                      <div className="relative w-full h-auto">
                         <img
                           src={project.image}
                           alt="image-project"

@@ -7,7 +7,8 @@ import projectsData from "../projectsData/projectsData.json";
 
 const Overview = ({ setOverviewOpen }) => {
   const [projects, setProjects] = useState(projectsData);
-
+  const sortedProjectsData = projects.sort((a, b) => b.id - a.id);
+  
   return (
     <div>
       <div
@@ -33,7 +34,7 @@ const Overview = ({ setOverviewOpen }) => {
 
         <div className="max-h-[60vh] flex-col flex max-w-[764px] px-2 overflow-auto">
           <Hero />
-          <LatestProject projects={projects} />
+          <LatestProject sortedProjectsData={sortedProjectsData} />
           <Skills />
           <Contact />
         </div>
@@ -109,7 +110,7 @@ const Hero = () => {
   );
 };
 
-const LatestProject = ({ projects }) => {
+const LatestProject = ({ sortedProjectsData }) => {
   return (
     <div className="py-5 mb-[3rem] text-[2rem] w-full font-medium flex flex-col items-center justify-start h-auto">
       <div className="mb-2 font-bold uppercase">
@@ -120,7 +121,7 @@ const LatestProject = ({ projects }) => {
         <div className="w-auto h-auto py-[2rem]">
           {/* projects mapping */}
           <ul>
-            {projects.slice(-3).map((project) => (
+            {sortedProjectsData.slice(0, 3).map((project) =>  (
               <li
                 key={project.id}
                 className="flex flex-col justify-center h-auto mx-2 mb-4 overflow-hidden bg-[#0E0E0E] rounded-md drop-shadow-md duration-300 ease-in-out hover:scale-[103%] hover:text-[#0E0E0E] hover:bg-[#FFD400]"

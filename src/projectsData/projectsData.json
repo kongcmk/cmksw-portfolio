@@ -33,6 +33,14 @@
     },
     {
       "id": 5,
+      "name": "exercise-tracking-website (work in process)",
+      "description": "This is exercise tracking website",
+      "source_code": "",
+      "demo": "",
+      "image": "https://lh3.googleusercontent.com/pw/ADCreHc5T27Mf3m6wBl0dFa1lX15w5yxtb83YuMDZaDt6x38GHYyeI2A13G4wMci7MeVzsetVTzjSL70DUjAnyt2YQzTAL1muMOznDfGKN3b4bmuGfO_MaS_yFadKKCssdUMFdyOwkj7sNtZE9G2uNpOJp0L=w1512-h924-s-no?authuser=0"
+    },
+    {
+      "id": 6,
       "name": "cmksw-portfolio",
       "description": "This portfolio page is a React application that showcases various components using React and the react-draggable library for draggable elements.",
       "source_code": "https://github.com/kongcmk/cmksw-portfolio",

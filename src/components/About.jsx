@@ -31,9 +31,12 @@ const About = ({ setAboutOpen }) => {
                   <img width="96" height="96" src="https://img.icons8.com/fluency/96/contact-card.png" alt="contact-card" />
                   <p className="text-sm font-medium w-[90px] text-center">03_01_profile</p>
                 </div>
-                <div className="flex flex-col flex-wrap items-center duration-300 ease-in-out w-fit hover:scale-105 hover:drop-shadow-lg" onClick={() => setPictureOpen(true)}>
-                  <div className="w-[96px] h-[96px]">
-                    <img src="./src/assets/picture.svg" alt="picture-profile" />
+
+                <div className="flex flex-col flex-wrap items-center justify-center duration-300 ease-in-out w-fit hover:scale-105 hover:drop-shadow-lg" onClick={() => setPictureOpen(true)}>
+                  <div className="w-[96px] h-[96px] flex items-start flex-row justify-center scale-90">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+<path fill="#90CAF9" d="M40 45L8 45 8 3 30 3 40 13z"></path><path fill="#E1F5FE" d="M38.5 14L29 14 29 4.5z"></path><path fill="#1565C0" d="M21 23L14 33 28 33z"></path><path fill="#1976D2" d="M28 26.4L23 33 33 33zM31.5 23A1.5 1.5 0 1 0 31.5 26 1.5 1.5 0 1 0 31.5 23z"></path>
+</svg>
                   </div>
                   <p className="text-sm font-medium w-[90px] text-center">03_02_picture</p>
                 </div>

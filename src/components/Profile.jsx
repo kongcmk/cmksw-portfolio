@@ -4,9 +4,9 @@ import { AiOutlineClose } from "react-icons/ai";
 const Profile = ({ setProfileOpen }) => {
   return (
     <div>
-      <div className="bg-[#efefef] drop-shadow-solid flex flex-col items-center justify-center w-auto min-w-[16rem] mini:min-w-[17rem] small:min-w-[20rem] phone:min-w-[22rem] tablet:min-w-[24rem] laptop:w-auto h-auto border-2 border-primary">
+      <div className=" bg-[#efefef] drop-shadow-solid flex flex-col items-center justify-center w-auto min-w-[16rem] mini:min-w-[17rem] small:min-w-[20rem] phone:min-w-[22rem] tablet:min-w-[24rem] laptop:w-auto h-auto border-2 border-primary">
         {/* Top bar */}
-        <div className="border-b-2 border-primary w-full h-[5rem] px-2 flex flex-row justify-between items-center">
+        <div className="  border-b-2 border-primary w-full h-[5rem] px-2 flex flex-row justify-between items-center">
           <div className="flex flex-row items-center w-1/3 h-[100%] ml-2 gap-2">
             <div
               className="text-2xl cursor-pointer active:scale-105"
@@ -21,7 +21,7 @@ const Profile = ({ setProfileOpen }) => {
           <div className="flex justify-end w-1/3 text-primary"></div>
         </div>
 
-        <div className="max-h-[60vh] flex-col flex max-w-[764px] px-2 overflow-auto">
+        <div className=" pt-32 small:pt-24 phone:pt-20 tablet:pt-2 max-h-[60vh]  flex-col flex max-w-[764px] px-2 items-start justify-start overflow-auto">
           <Detail />
         </div>
       </div>
@@ -32,7 +32,7 @@ const Profile = ({ setProfileOpen }) => {
 const Detail = () => {
   return (
     <div className="bg-[#efefef] text-[#0E0E0E] max-h-[640px] flex flex-col justify-evenly items-center">
-      <div className="flex flex-col items-start justify-start w-full px-4 py-4 phone:gap-2 tablet:gap-6 tablet:pt-[2rem]">
+      <div className=" flex flex-col items-start justify-start w-full px-4 py-4 phone:gap-2 tablet:gap-6 tablet:pt-[2rem]">
         <h1 className="text-3xl font-bold tracking-[2px] uppercase small:text-3xl phone:text-[2.5rem] tablet:text-[4rem] text-[#0E0E0E]">
           Chaimongkol
         </h1>
